@@ -87,10 +87,10 @@ if urls:
         if result:
             for i in result:
                 print(' %s %s' % (good, i))
-                print('   %s-%s Class: %s' % (yellow, end, result[i]['class']))
+                print('   %s-%s Type: %s' % (yellow, end, result[i]['type']))
                 if not quiet:
                     print('   %s-%s Description: %s' % (yellow, end, result[i]['description']))
-                    print('   %s-%s Severity: %s' % (yellow, end, result[i]['severity']))
+                    print('   %s-%s Risk: %s' % (yellow, end, result[i]['risk']))
                     print('   %s-%s Exploitation: %s' % (yellow, end, result[i]['exploitation']))
                 print('   %s-%s ACAO Header: %s' % (yellow, end, result[i]['acao header']))
                 print('   %s-%s ACAC Header: %s\n' % (yellow, end, result[i]['acac header']))
